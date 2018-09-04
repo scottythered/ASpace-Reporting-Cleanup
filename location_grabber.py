@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from asnake.client import ASnakeClient
 import pandas as pd
 from tqdm import tqdm
