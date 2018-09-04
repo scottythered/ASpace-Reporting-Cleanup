@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from asnake.client import ASnakeClient
 import pandas as pd
 import datetime
@@ -37,7 +39,7 @@ for record in tqdm(accession_records):
 print('Done')
 
 df = pd.DataFrame()
-df['Collection_Number']  = collection_no_column
+df['Collection_Number'] = collection_no_column
 df['Create_Date'] = created_column
 df['Extent'] = extent_column
 df['Extent_Units'] = unit_column
